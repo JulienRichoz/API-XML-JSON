@@ -2,6 +2,12 @@
 
 Cette partie décrit les différents standards qui sont proposés pour utiliser le JSON ou XML a travers une API REST.
 
+## Quoi utiliser
+
+
+
 ## XML
+
+
 
 ## JSON
