@@ -156,6 +156,42 @@ var xml = "xml goes here",
   $xml = $( xmlDoc );
 ```
 
+Maintenant que le string contenant le XML a été set, on peut aller chercher les éléments qu'on veut.
+
+```javascript
+var heading = $xml.find( "heading" );
+```
+
+Si on prend notre exemple avec les livres, si on veut chercher l'auteur du livre avec l'attribut "COOKING"
+
+```javascript
+$xml.find( "book[category='COOKING']>author" ).text();
+```
+
+ça ressemble beaucoup à du XPath, ce qui ne devrait pas être trop compliqué à utiliser.
+
+### Générer du XML
+
+Si l'on veut reconstruire notre XML d'exemple en JQuery
+
+```javascript
+var xmlDocument = $.parseXML("<note/>");
+var elTo = xmlDocument.createElement('to');
+var elFrom = xmlDocument.createElement('from');
+var elHeading = xmlDocument.createElement('heading');
+var elBody = xmlDocument.createElement('body');
+elTo.text('Tove');
+elFrom.text('Jani');
+elHeading.text('Reminder');
+elBody.text('Don\'t forget me this weekend!');
+```
+
+S'il on veut créer des nodes enfants à des éléments
+
+```javascript
+
+```
+
 ## Ruby
 
 Il y a plusieurs façons de parser du XML en Ruby, on va utiliser la librairie "Nokogiri" qu'il faudra installer vu qu'elle ne vient pas de base avec Ruby
