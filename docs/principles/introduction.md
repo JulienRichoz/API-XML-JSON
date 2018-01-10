@@ -33,7 +33,11 @@ POST    /repos/:owner/:repo/pulls
 }
 ```
 
+Ici on a la meme uri que l'exemple précédent, mais on utilise l'entete `POST`, ce qui signifie que l'on veut ajouter un novel élément (ici une nouvelle pull request). Il faudra alors passer dans le body de la requete les informations de la nouvelle pull request a ouvrir (ici au format JSON).
+
 ## La réponse
+
+Une fois la requete effectue, l'api vas nous renvoyer une reponse. Pour uniformiser ces reponces le standard `REST` propose une certain nombre de *bonnes pratiques*.
 
 ### XML
 
