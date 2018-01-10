@@ -96,3 +96,7 @@ Voici un exemple de réponce de l'api GitHub si on souhaite connaitre tous les d
 
 * Si la réponse peut contenir plusieurs éléments identiques le `JOON` est entouré de `[]` pour signifier que c'est un tableau d'objects.
 * Si la réponce de peut contenir qu'un element elle est entourée des habituelles `{}`.
+* Les clefs des éléments de l'objet sont :
+  * en minuscules
+  * on utilise le **snake_case**. `_` pour séparer les mots.
+* on identifie la ressource avec un id ou un slug (Pour permetre de soumetre des eventuelles modifs simplement).
