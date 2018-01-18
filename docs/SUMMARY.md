@@ -1,6 +1,6 @@
 # SUMMARY
 
-* [Intro](API/API.md)
+* [API RESTful](API/API.md)
 * [Principes](principles/introduction.md)
 * Examples
   * [XML](examples/XML.md)
