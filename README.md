@@ -17,4 +17,4 @@ Vous trouverez la doc ici [GitBook](https://bastiennicoud.gitbooks.io/api-xml-js
 * [Ex 1](https://jsfiddle.net/BnDD/5LqdkhvL/)
 * [Ex 2](https://jsfiddle.net/BnDD/xgv2y63s/)
 
-Vous trouverez les instructions pour réaliser les exercices [ICI](https://bastiennicoud.gitbooks.io/api-xml-json/content/).
+Vous trouverez les instructions pour réaliser les exercices [ICI](https://bastiennicoud.gitbooks.io/api-xml-json/content/exercise.html#1).
